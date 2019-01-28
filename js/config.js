@@ -17,7 +17,7 @@ var l_serverName = "sleekLoad 2";
 
 /*Use a video for the background?
 Otherwise it will just use images*/
-var l_bgVideo = false;
+var l_bgVideo = true;
 
 /*Video background
 Avaiable options:
@@ -44,7 +44,7 @@ Avaiable options:
 
 You can add custom backgrounds
 Just make sure it is at webm VP8 format */
-var l_background = "backgrounds/videos/glimmering.webm";
+var l_background = "backgrounds/videos/active_background_1.webm";
 
 /*(Image-background only)
 Place one or more images
@@ -52,8 +52,7 @@ Multiple images will automatically shuffle between them*/
 var l_bgImages = [
 	"backgrounds/images/anime1.jpg",
 	"backgrounds/images/anime2.jpg",
-	"backgrounds/images/anime3.jpg",
-	"backgrounds/images/anime4.jpg"
+	"backgrounds/images/anime3.jpg"
 ];
 
 /*Random background images order?*/
