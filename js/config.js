@@ -17,7 +17,7 @@ var l_serverName = "sleekLoad 2";
 
 /*Use a video for the background?
 Otherwise it will just use images*/
-var l_bgVideo = true;
+var l_bgVideo = false;
 
 /*Video background
 Avaiable options:
@@ -105,8 +105,7 @@ var l_messagesEnabled = true;
 var l_messages = [
 "Добро Пожаловать!",
 "Будьте адекватным игроком нашего сервера!",
-"Спасибо,что играете у нас!",
-"У нас присутствует новый Point Shop 2"
+"Спасибо,что играете у нас!"
 ];
 
 /*Random message order?*/
